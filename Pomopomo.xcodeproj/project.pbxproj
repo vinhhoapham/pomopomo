@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D4962D0253FF96000DBF1AC /* Experiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4962CF253FF95F00DBF1AC /* Experiment.swift */; };
+		3D785CF7253CEE0D00AEB84F /* ModelViewBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D785CF6253CEE0D00AEB84F /* ModelViewBridge.swift */; };
+		3D785D04253CEEF900AEB84F /* UIInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D785D03253CEEF900AEB84F /* UIInternal.swift */; };
+		3D9F0B2C253EB46100F1C9B8 /* PomoMenu_progressCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9F0B2B253EB46100F1C9B8 /* PomoMenu_progressCircle.swift */; };
+		3D9F0B37253EC70800F1C9B8 /* ButtonMenusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9F0B36253EC70800F1C9B8 /* ButtonMenusButton.swift */; };
+		3D9F0B3F253EC7B600F1C9B8 /* PomoMenu_Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9F0B3E253EC7B600F1C9B8 /* PomoMenu_Button.swift */; };
+		3DAF9435253BE2ED00285199 /* PomoNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAF9434253BE2ED00285199 /* PomoNotification.swift */; };
+		3DF1649D253D0FB3008AB02C /* PomoMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF1649C253D0FB3008AB02C /* PomoMenu.swift */; };
+		3DFADE3A253BD2080007A45A /* PomopomoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFADE39253BD2080007A45A /* PomopomoApp.swift */; };
+		3DFADE3C253BD2080007A45A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFADE3B253BD2080007A45A /* ContentView.swift */; };
+		3DFADE3E253BD20A0007A45A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DFADE3D253BD20A0007A45A /* Assets.xcassets */; };
+		3DFADE41253BD20A0007A45A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DFADE40253BD20A0007A45A /* Preview Assets.xcassets */; };
+		3DFADE4C253BD20A0007A45A /* PomopomoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFADE4B253BD20A0007A45A /* PomopomoTests.swift */; };
+		3DFADE57253BD20A0007A45A /* PomopomoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFADE56253BD20A0007A45A /* PomopomoUITests.swift */; };
+		3DFADE69253BD23D0007A45A /* Period.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFADE68253BD23D0007A45A /* Period.swift */; };
+		3DFD1006253C2BFB0035C98D /* BottomMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFD1005253C2BFB0035C98D /* BottomMenu.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DFADE48253BD20A0007A45A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DFADE2E253BD2080007A45A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DFADE35253BD2080007A45A;
+			remoteInfo = Pomopomo;
+		};
+		3DFADE53253BD20A0007A45A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DFADE2E253BD2080007A45A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DFADE35253BD2080007A45A;
+			remoteInfo = Pomopomo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D4962CF253FF95F00DBF1AC /* Experiment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experiment.swift; sourceTree = "<group>"; };
+		3D785CF6253CEE0D00AEB84F /* ModelViewBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelViewBridge.swift; sourceTree = "<group>"; };
+		3D785D03253CEEF900AEB84F /* UIInternal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIInternal.swift; sourceTree = "<group>"; };
+		3D9F0B2B253EB46100F1C9B8 /* PomoMenu_progressCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomoMenu_progressCircle.swift; sourceTree = "<group>"; };
+		3D9F0B36253EC70800F1C9B8 /* ButtonMenusButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonMenusButton.swift; sourceTree = "<group>"; };
+		3D9F0B3E253EC7B600F1C9B8 /* PomoMenu_Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomoMenu_Button.swift; sourceTree = "<group>"; };
+		3DAF9434253BE2ED00285199 /* PomoNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomoNotification.swift; sourceTree = "<group>"; };
+		3DF1649C253D0FB3008AB02C /* PomoMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomoMenu.swift; sourceTree = "<group>"; };
+		3DFADE36253BD2080007A45A /* Pomopomo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pomopomo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DFADE39253BD2080007A45A /* PomopomoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomopomoApp.swift; sourceTree = "<group>"; };
+		3DFADE3B253BD2080007A45A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3DFADE3D253BD20A0007A45A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DFADE40253BD20A0007A45A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3DFADE42253BD20A0007A45A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DFADE47253BD20A0007A45A /* PomopomoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PomopomoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DFADE4B253BD20A0007A45A /* PomopomoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomopomoTests.swift; sourceTree = "<group>"; };
+		3DFADE4D253BD20A0007A45A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DFADE52253BD20A0007A45A /* PomopomoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PomopomoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DFADE56253BD20A0007A45A /* PomopomoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomopomoUITests.swift; sourceTree = "<group>"; };
+		3DFADE58253BD20A0007A45A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DFADE68253BD23D0007A45A /* Period.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Period.swift; sourceTree = "<group>"; };
+		3DFD1005253C2BFB0035C98D /* BottomMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomMenu.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DFADE33253BD2080007A45A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DFADE44253BD20A0007A45A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DFADE4F253BD20A0007A45A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D785CF5253CEDEC00AEB84F /* PomoPomoViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3D785CF6253CEE0D00AEB84F /* ModelViewBridge.swift */,
+				3D785D03253CEEF900AEB84F /* UIInternal.swift */,
+			);
+			path = PomoPomoViewModel;
+			sourceTree = "<group>";
+		};
+		3D9F0B30253EC5AB00F1C9B8 /* BottomMenu */ = {
+			isa = PBXGroup;
+			children = (
+				3DFD1005253C2BFB0035C98D /* BottomMenu.swift */,
+				3D9F0B36253EC70800F1C9B8 /* ButtonMenusButton.swift */,
+			);
+			path = BottomMenu;
+			sourceTree = "<group>";
+		};
+		3D9F0B34253EC5E800F1C9B8 /* UpperMenu */ = {
+			isa = PBXGroup;
+			children = (
+				3D9F0B35253EC6BD00F1C9B8 /* PomoMenu */,
+			);
+			path = UpperMenu;
+			sourceTree = "<group>";
+		};
+		3D9F0B35253EC6BD00F1C9B8 /* PomoMenu */ = {
+			isa = PBXGroup;
+			children = (
+				3DF1649C253D0FB3008AB02C /* PomoMenu.swift */,
+				3D9F0B3E253EC7B600F1C9B8 /* PomoMenu_Button.swift */,
+				3D9F0B2B253EB46100F1C9B8 /* PomoMenu_progressCircle.swift */,
+			);
+			path = PomoMenu;
+			sourceTree = "<group>";
+		};
+		3DFADE2D253BD2080007A45A = {
+			isa = PBXGroup;
+			children = (
+				3DFADE38253BD2080007A45A /* Pomopomo */,
+				3DFADE4A253BD20A0007A45A /* PomopomoTests */,
+				3DFADE55253BD20A0007A45A /* PomopomoUITests */,
+				3DFADE37253BD2080007A45A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DFADE37253BD2080007A45A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DFADE36253BD2080007A45A /* Pomopomo.app */,
+				3DFADE47253BD20A0007A45A /* PomopomoTests.xctest */,
+				3DFADE52253BD20A0007A45A /* PomopomoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DFADE38253BD2080007A45A /* Pomopomo */ = {
+			isa = PBXGroup;
+			children = (
+				3DFD1004253C2BBD0035C98D /* PomopomoView */,
+				3D785CF5253CEDEC00AEB84F /* PomoPomoViewModel */,
+				3DFADE67253BD21E0007A45A /* PomopomoModel */,
+				3DFADE3B253BD2080007A45A /* ContentView.swift */,
+				3DFADE39253BD2080007A45A /* PomopomoApp.swift */,
+				3D4962CF253FF95F00DBF1AC /* Experiment.swift */,
+				3DFADE3D253BD20A0007A45A /* Assets.xcassets */,
+				3DFADE42253BD20A0007A45A /* Info.plist */,
+				3DFADE3F253BD20A0007A45A /* Preview Content */,
+			);
+			path = Pomopomo;
+			sourceTree = "<group>";
+		};
+		3DFADE3F253BD20A0007A45A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3DFADE40253BD20A0007A45A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3DFADE4A253BD20A0007A45A /* PomopomoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DFADE4B253BD20A0007A45A /* PomopomoTests.swift */,
+				3DFADE4D253BD20A0007A45A /* Info.plist */,
+			);
+			path = PomopomoTests;
+			sourceTree = "<group>";
+		};
+		3DFADE55253BD20A0007A45A /* PomopomoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DFADE56253BD20A0007A45A /* PomopomoUITests.swift */,
+				3DFADE58253BD20A0007A45A /* Info.plist */,
+			);
+			path = PomopomoUITests;
+			sourceTree = "<group>";
+		};
+		3DFADE67253BD21E0007A45A /* PomopomoModel */ = {
+			isa = PBXGroup;
+			children = (
+				3DFADE68253BD23D0007A45A /* Period.swift */,
+				3DAF9434253BE2ED00285199 /* PomoNotification.swift */,
+			);
+			path = PomopomoModel;
+			sourceTree = "<group>";
+		};
+		3DFD1004253C2BBD0035C98D /* PomopomoView */ = {
+			isa = PBXGroup;
+			children = (
+				3D9F0B34253EC5E800F1C9B8 /* UpperMenu */,
+				3D9F0B30253EC5AB00F1C9B8 /* BottomMenu */,
+			);
+			path = PomopomoView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DFADE35253BD2080007A45A /* Pomopomo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DFADE5B253BD20A0007A45A /* Build configuration list for PBXNativeTarget "Pomopomo" */;
+			buildPhases = (
+				3DFADE32253BD2080007A45A /* Sources */,
+				3DFADE33253BD2080007A45A /* Frameworks */,
+				3DFADE34253BD2080007A45A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pomopomo;
+			productName = Pomopomo;
+			productReference = 3DFADE36253BD2080007A45A /* Pomopomo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DFADE46253BD20A0007A45A /* PomopomoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DFADE5E253BD20A0007A45A /* Build configuration list for PBXNativeTarget "PomopomoTests" */;
+			buildPhases = (
+				3DFADE43253BD20A0007A45A /* Sources */,
+				3DFADE44253BD20A0007A45A /* Frameworks */,
+				3DFADE45253BD20A0007A45A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DFADE49253BD20A0007A45A /* PBXTargetDependency */,
+			);
+			name = PomopomoTests;
+			productName = PomopomoTests;
+			productReference = 3DFADE47253BD20A0007A45A /* PomopomoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DFADE51253BD20A0007A45A /* PomopomoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DFADE61253BD20A0007A45A /* Build configuration list for PBXNativeTarget "PomopomoUITests" */;
+			buildPhases = (
+				3DFADE4E253BD20A0007A45A /* Sources */,
+				3DFADE4F253BD20A0007A45A /* Frameworks */,
+				3DFADE50253BD20A0007A45A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DFADE54253BD20A0007A45A /* PBXTargetDependency */,
+			);
+			name = PomopomoUITests;
+			productName = PomopomoUITests;
+			productReference = 3DFADE52253BD20A0007A45A /* PomopomoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DFADE2E253BD2080007A45A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					3DFADE35253BD2080007A45A = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					3DFADE46253BD20A0007A45A = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 3DFADE35253BD2080007A45A;
+					};
+					3DFADE51253BD20A0007A45A = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 3DFADE35253BD2080007A45A;
+					};
+				};
+			};
+			buildConfigurationList = 3DFADE31253BD2080007A45A /* Build configuration list for PBXProject "Pomopomo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DFADE2D253BD2080007A45A;
+			productRefGroup = 3DFADE37253BD2080007A45A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DFADE35253BD2080007A45A /* Pomopomo */,
+				3DFADE46253BD20A0007A45A /* PomopomoTests */,
+				3DFADE51253BD20A0007A45A /* PomopomoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DFADE34253BD2080007A45A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DFADE41253BD20A0007A45A /* Preview Assets.xcassets in Resources */,
+				3DFADE3E253BD20A0007A45A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DFADE45253BD20A0007A45A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DFADE50253BD20A0007A45A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DFADE32253BD2080007A45A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DF1649D253D0FB3008AB02C /* PomoMenu.swift in Sources */,
+				3DFADE3C253BD2080007A45A /* ContentView.swift in Sources */,
+				3DFADE69253BD23D0007A45A /* Period.swift in Sources */,
+				3D9F0B37253EC70800F1C9B8 /* ButtonMenusButton.swift in Sources */,
+				3D785CF7253CEE0D00AEB84F /* ModelViewBridge.swift in Sources */,
+				3DFD1006253C2BFB0035C98D /* BottomMenu.swift in Sources */,
+				3DFADE3A253BD2080007A45A /* PomopomoApp.swift in Sources */,
+				3D785D04253CEEF900AEB84F /* UIInternal.swift in Sources */,
+				3D4962D0253FF96000DBF1AC /* Experiment.swift in Sources */,
+				3D9F0B2C253EB46100F1C9B8 /* PomoMenu_progressCircle.swift in Sources */,
+				3DAF9435253BE2ED00285199 /* PomoNotification.swift in Sources */,
+				3D9F0B3F253EC7B600F1C9B8 /* PomoMenu_Button.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DFADE43253BD20A0007A45A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DFADE4C253BD20A0007A45A /* PomopomoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DFADE4E253BD20A0007A45A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DFADE57253BD20A0007A45A /* PomopomoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DFADE49253BD20A0007A45A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DFADE35253BD2080007A45A /* Pomopomo */;
+			targetProxy = 3DFADE48253BD20A0007A45A /* PBXContainerItemProxy */;
+		};
+		3DFADE54253BD20A0007A45A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DFADE35253BD2080007A45A /* Pomopomo */;
+			targetProxy = 3DFADE53253BD20A0007A45A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3DFADE59253BD20A0007A45A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DFADE5A253BD20A0007A45A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DFADE5C253BD20A0007A45A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Pomopomo/Preview Content\"";
+				DEVELOPMENT_TEAM = H323Z3M8AD;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Pomopomo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VinhPham.Pomopomo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DFADE5D253BD20A0007A45A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Pomopomo/Preview Content\"";
+				DEVELOPMENT_TEAM = H323Z3M8AD;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Pomopomo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VinhPham.Pomopomo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3DFADE5F253BD20A0007A45A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H323Z3M8AD;
+				INFOPLIST_FILE = PomopomoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VinhPham.PomopomoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pomopomo.app/Pomopomo";
+			};
+			name = Debug;
+		};
+		3DFADE60253BD20A0007A45A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H323Z3M8AD;
+				INFOPLIST_FILE = PomopomoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VinhPham.PomopomoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pomopomo.app/Pomopomo";
+			};
+			name = Release;
+		};
+		3DFADE62253BD20A0007A45A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H323Z3M8AD;
+				INFOPLIST_FILE = PomopomoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VinhPham.PomopomoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pomopomo;
+			};
+			name = Debug;
+		};
+		3DFADE63253BD20A0007A45A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H323Z3M8AD;
+				INFOPLIST_FILE = PomopomoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VinhPham.PomopomoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pomopomo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DFADE31253BD2080007A45A /* Build configuration list for PBXProject "Pomopomo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DFADE59253BD20A0007A45A /* Debug */,
+				3DFADE5A253BD20A0007A45A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DFADE5B253BD20A0007A45A /* Build configuration list for PBXNativeTarget "Pomopomo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DFADE5C253BD20A0007A45A /* Debug */,
+				3DFADE5D253BD20A0007A45A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DFADE5E253BD20A0007A45A /* Build configuration list for PBXNativeTarget "PomopomoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DFADE5F253BD20A0007A45A /* Debug */,
+				3DFADE60253BD20A0007A45A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DFADE61253BD20A0007A45A /* Build configuration list for PBXNativeTarget "PomopomoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DFADE62253BD20A0007A45A /* Debug */,
+				3DFADE63253BD20A0007A45A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DFADE2E253BD2080007A45A /* Project object */;
+}

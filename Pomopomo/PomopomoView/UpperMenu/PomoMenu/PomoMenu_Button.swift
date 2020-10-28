@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct PomoMenu_Button: View {
+    
     var name : String
     var functionality : () -> ()
     var color: Color
@@ -17,6 +18,7 @@ struct PomoMenu_Button: View {
         self.functionality = content
         self.color = color
     }
+    
     var body: some View{
         HStack{
             Button(action: {functionality()}) {

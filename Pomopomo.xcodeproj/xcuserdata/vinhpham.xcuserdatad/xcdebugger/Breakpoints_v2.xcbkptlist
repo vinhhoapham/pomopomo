@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1513C3FB-A049-4F66-84B4-E657F44CD5C0"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5D3F3A2E-078A-41C0-8FEA-A51ADD96FFCE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pomopomo/PomopomoView/BottomMenu/BottomMenu.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "5D3F3A2E-078A-41C0-8FEA-A51ADD96FFCE - db384399102bfe33"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Spacer, Pomopomo.BottomMenu_button, Pomopomo.BottomMenu_button, Pomopomo.BottomMenu_button, SwiftUI.Spacer)&gt; in Pomopomo.BottomMenu.body.getter : some"
+                  moduleName = "Pomopomo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/T7/Projects/Swift/iOS/Pomopomo/Pomopomo/PomopomoView/BottomMenu/BottomMenu.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "622">
+               </Location>
+               <Location
+                  uuid = "5D3F3A2E-078A-41C0-8FEA-A51ADD96FFCE - 9fcd84def7dc9beb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Spacer, Pomopomo.BottomMenu_button, Pomopomo.BottomMenu_button, Pomopomo.BottomMenu_button, SwiftUI.Spacer)&gt; in Pomopomo.BottomMenu.body.getter : some"
+                  moduleName = "Pomopomo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/T7/Projects/Swift/iOS/Pomopomo/Pomopomo/PomopomoView/BottomMenu/BottomMenu.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "10">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EB7F70F0-A453-428B-929B-F2E80AFE9E67"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pomopomo/PomopomoView/BottomMenu/BottomMenu.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "EB7F70F0-A453-428B-929B-F2E80AFE9E67 - db384399102bfe52"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Spacer, Pomopomo.BottomMenu_button, Pomopomo.BottomMenu_button, Pomopomo.BottomMenu_button, SwiftUI.Spacer)&gt; in Pomopomo.BottomMenu.body.getter : some"
+                  moduleName = "Pomopomo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/T7/Projects/Swift/iOS/Pomopomo/Pomopomo/PomopomoView/BottomMenu/BottomMenu.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "467">
+               </Location>
+               <Location
+                  uuid = "EB7F70F0-A453-428B-929B-F2E80AFE9E67 - 1dc30014a315edb5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Spacer, Pomopomo.BottomMenu_button, Pomopomo.BottomMenu_button, Pomopomo.BottomMenu_button, SwiftUI.Spacer)&gt; in Pomopomo.BottomMenu.body.getter : some"
+                  moduleName = "Pomopomo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/T7/Projects/Swift/iOS/Pomopomo/Pomopomo/PomopomoView/BottomMenu/BottomMenu.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "10">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "88E9D93C-0144-4CB0-B8A8-0AD8F931F93F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pomopomo/PomopomoView/BottomMenu/BottomMenu.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "88E9D93C-0144-4CB0-B8A8-0AD8F931F93F - db384399102bfe75"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Spacer, Pomopomo.BottomMenu_button, Pomopomo.BottomMenu_button, Pomopomo.BottomMenu_button, SwiftUI.Spacer)&gt; in Pomopomo.BottomMenu.body.getter : some"
+                  moduleName = "Pomopomo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/T7/Projects/Swift/iOS/Pomopomo/Pomopomo/PomopomoView/BottomMenu/BottomMenu.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "236">
+               </Location>
+               <Location
+                  uuid = "88E9D93C-0144-4CB0-B8A8-0AD8F931F93F - a3c09b6d5f4e4793"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Spacer, Pomopomo.BottomMenu_button, Pomopomo.BottomMenu_button, Pomopomo.BottomMenu_button, SwiftUI.Spacer)&gt; in Pomopomo.BottomMenu.body.getter : some"
+                  moduleName = "Pomopomo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/T7/Projects/Swift/iOS/Pomopomo/Pomopomo/PomopomoView/BottomMenu/BottomMenu.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "10">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -21,7 +21,7 @@ struct BottomMenu_button: View{
     
     var body: some View{
         HStack{
-            Button(action: {}, label: {
+            Button(action: {functionality()}, label: {
                 Text(name)
                     .font(.system(size: 20)).fontWeight(.regular)
                     .padding(.trailing, 30)

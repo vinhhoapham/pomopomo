@@ -15,6 +15,7 @@ struct pomoNotification {
     init(content: Content, time: Double){
         self.content.title = content.title
         self.content.subtitle = content.subtitle
+        self.content.sound = UNNotificationSound.default
         self.time = time
         let requestAnAuthorization = UNUserNotificationCenter.current()
         requestAnAuthorization.requestAuthorization(options: [.alert, .sound, .badge]){ granted, error in

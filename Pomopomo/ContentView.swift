@@ -7,19 +7,33 @@
 
 import SwiftUI
 
+
+
 struct ContentView: View {
-    
+    @ObservedObject var viewUI = currentUI
+  
     var body: some View {
         VStack(){
-            PomoMenu()
+          
+            switch currentUI.chosenMenu {
+                case .pomoMenu:
+                    PomoMenu()
+                case .setting:
+                    SettingMenu()
+                case .history:
+                    HistoryMenu()
+            }
             Spacer()
+            
             BottomMenu()
+            
         }.ignoresSafeArea(edges: .bottom)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        //ContentView()
+        Text("")
     }
 }

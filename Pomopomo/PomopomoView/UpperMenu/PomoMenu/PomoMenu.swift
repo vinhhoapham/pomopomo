@@ -26,17 +26,22 @@ struct PomoMenu: View {
             
             HStack(spacing: 20){
                 PomoMenu_Button(name: "Start", color: Color.green) {
-                    startASession(name: nameOfPeriod, lasts: Double(durationOfPeriod)!)
+                    if let duration = Double(durationOfPeriod), duration > 0 {
+                        currentSession.start(name: "", lasts: duration)
+                    } else {
+                        print("WRONG!!!")
+                    }
+                    
                 }
-                PomoMenu_Button(name: "Stop", color: Color.red, content: {})
+                PomoMenu_Button(name: "Stop", color: Color.red) {
+                    currentSession.cancel()
+                }
                 
-            }.frame(alignment: .topLeading).onReceive(automaticTimer) {_ in
-                if currentSession != nil {
-                    progress = getProgress().percentage
-                }
-            }
+            }.frame(alignment: .topLeading)
             
-            progressCircle(progress: self.$progress)
+            progressCircle(progress: self.$progress).onReceive(automaticTimer) {_ in
+                progress = currentSession.getProgress().percentage
+            }
             
             Spacer()
             

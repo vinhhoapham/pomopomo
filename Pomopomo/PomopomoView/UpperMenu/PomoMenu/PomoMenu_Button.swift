@@ -39,8 +39,4 @@ struct PomoMenu_Button: View {
     }
 }
 
-struct PomoMenu_Button_Previews: PreviewProvider {
-    static var previews: some View {
-        PomoMenu_Button(name: "Hello", color: Color.red, content: {})
-    }
-}
+

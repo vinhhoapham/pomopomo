@@ -13,8 +13,3 @@ struct SettingMenu: View {
     }
 }
 
-struct SettingMenu_Previews: PreviewProvider {
-    static var previews: some View {
-        SettingMenu()
-    }
-}

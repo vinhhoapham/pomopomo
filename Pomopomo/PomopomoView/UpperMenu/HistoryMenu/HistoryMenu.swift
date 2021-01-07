@@ -9,12 +9,8 @@ import SwiftUI
 
 struct HistoryMenu: View {
     var body: some View {
-        Text(logFile.read())
+       Text("")
     }
 }
 
-struct HistoryMenu_Previews: PreviewProvider {
-    static var previews: some View {
-        HistoryMenu()
-    }
-}
+

@@ -11,13 +11,15 @@ import SwiftUI
 struct PomopomoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().onAppear(){
+                if storeSystem.isThereAnActivePeriod() {
+                    pomopomoViewModel.currentPeriod = storeSystem.activePeriod
+                }
+            }
         }
     }
 }
 
-struct PomopomoApp_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+
+
+

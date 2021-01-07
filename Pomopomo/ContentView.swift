@@ -7,8 +7,6 @@
 
 import SwiftUI
 
-
-
 struct ContentView: View {
     @ObservedObject var viewUI = currentUI
   
@@ -23,6 +21,7 @@ struct ContentView: View {
                 case .history:
                     HistoryMenu()
             }
+            
             Spacer()
             
             BottomMenu()
@@ -31,9 +30,3 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        //ContentView()
-        Text("")
-    }
-}

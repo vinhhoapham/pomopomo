@@ -8,7 +8,13 @@
 import SwiftUI
 
 struct HistoryMenu: View {
+    @State var historyOfPeriods : [PomoPeriod]
     var body: some View {
+        List{
+            ForEach(historyOfPeriods, id: \.self) {period in
+                Text(String(period.originalDuration))
+            }
+        }
        Text("")
     }
 }

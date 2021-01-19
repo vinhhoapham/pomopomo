@@ -9,17 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     @ObservedObject var viewUI = currentUI
-  
+    @Binding var viewModel : PomoViewModel
     var body: some View {
         VStack(){
           
-            switch currentUI.chosenMenu {
+            switch viewUI.pickedMenu {
                 case .pomoMenu:
-                    PomoMenu()
+                    PomoMenu(viewModel: $viewModel)
                 case .setting:
                     SettingMenu()
                 case .history:
-                    HistoryMenu()
+                    HistoryMenu(historyOfPeriods: storeSystem.storedPeriods)
             }
             
             Spacer()

@@ -10,15 +10,16 @@ import Combine
 import SwiftUI
 
 
-class pomoStoreSystem {
+class PomoStoreSystem {
     
     @Published private(set) var storedPeriods = [PomoPeriod]()
     @Published private(set) var activePeriod : PomoPeriod? = nil
     
-    private var autosaveCancellable : AnyCancellable?
+    private var activePeriodAutosaveCancellable : AnyCancellable?
+    private var storedPeriodsAutosaveCancellable : AnyCancellable?
     private let activePeriodKey = "Pomo.activePeriod"
     private let storedPeriodsKey = "Pomo.storedPeriods"
-    var storedPeriodsjson: Data? { try? JSONEncoder().encode(storedPeriods) }
+    var storedPeriodsJson: Data? { try? JSONEncoder().encode(storedPeriods) }
     
     
     init() {
@@ -28,7 +29,11 @@ class pomoStoreSystem {
         
         storedPeriods = UserDefaults.standard.array(forKey: storedPeriodsKey) as? [PomoPeriod] ?? []
         
-        autosaveCancellable = $activePeriod.sink { period in
+        storedPeriodsAutosaveCancellable = $storedPeriods.sink{ _ in
+            UserDefaults.standard.set(self.storedPeriodsJson, forKey: self.storedPeriodsKey)
+        }
+        
+        activePeriodAutosaveCancellable = $activePeriod.sink { period in
             UserDefaults.standard.set(period?.json ?? nil, forKey: self.activePeriodKey)
             }
         
@@ -36,7 +41,6 @@ class pomoStoreSystem {
     
     func addFinishedPeriod(period: PomoPeriod) {
         storedPeriods.append(period)
-        UserDefaults.standard.set(storedPeriodsjson, forKey: storedPeriodsKey)
         activePeriod = nil
     }
     
@@ -58,7 +62,7 @@ class pomoStoreSystem {
     
 }
 
-var storeSystem = pomoStoreSystem()
+
 
 
  

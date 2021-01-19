@@ -29,7 +29,8 @@ class pomoNotificationSystem {
         
         let trigger = UNTimeIntervalNotificationTrigger(timeInterval: notification.time, repeats: false)
         let request = UNNotificationRequest(identifier: notification.id.uuidString, content: notification.content, trigger: trigger)
-        center.add(request) 
+        center.add(request)
+        print(availiableNotifications)
     }
     
     func remove(notification: pomoNotification) {
@@ -52,4 +53,4 @@ class pomoNotificationSystem {
     }
 }
 
-var notificationSystem = pomoNotificationSystem()
+

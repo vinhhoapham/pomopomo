@@ -7,11 +7,9 @@
 import Foundation
 
 
-var pomopomoViewModel = PomoViewModel()
 
-
-class PomoViewModel {
-    var currentPeriod : PomoPeriod?
+class PomoViewModel: ObservableObject {
+    @Published var currentPeriod : PomoPeriod?
     var isPaused = true
     
     func start(name: String, lasts minute: Double) {
@@ -19,12 +17,9 @@ class PomoViewModel {
         isPaused = false
     }
 
-    
-    
     func cancel(){
         currentPeriod?.cancelled()
         currentPeriod = nil
-        
     }
     
     func resume() {
@@ -37,6 +32,10 @@ class PomoViewModel {
         isPaused = true
     }
     
+    func reboot() {
+        currentPeriod?.resumedFromAppRestarting()
+        isPaused = false
+    }
     
 }
 

@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D2B1CED254636F100E9D1D2 /* PomoFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2B1CEC254636F100E9D1D2 /* PomoFile.swift */; };
+		3D2B1CED254636F100E9D1D2 /* PomoStoreSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2B1CEC254636F100E9D1D2 /* PomoStoreSystem.swift */; };
 		3D5A72A7254783AC0066B981 /* HistoryMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5A72A6254783AC0066B981 /* HistoryMenu.swift */; };
 		3D5A72AF254783DB0066B981 /* SettingMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5A72AE254783DB0066B981 /* SettingMenu.swift */; };
 		3D785CF7253CEE0D00AEB84F /* ModelViewBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D785CF6253CEE0D00AEB84F /* ModelViewBridge.swift */; };
 		3D785D04253CEEF900AEB84F /* UIInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D785D03253CEEF900AEB84F /* UIInternal.swift */; };
+		3D953F6E259523B80063426B /* PomoNotificationSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D953F6D259523B80063426B /* PomoNotificationSystem.swift */; };
 		3D9F0B2C253EB46100F1C9B8 /* PomoMenu_progressCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9F0B2B253EB46100F1C9B8 /* PomoMenu_progressCircle.swift */; };
 		3D9F0B37253EC70800F1C9B8 /* ButtonMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9F0B36253EC70800F1C9B8 /* ButtonMenuButton.swift */; };
 		3D9F0B3F253EC7B600F1C9B8 /* PomoMenu_Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9F0B3E253EC7B600F1C9B8 /* PomoMenu_Button.swift */; };
@@ -45,11 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3D2B1CEC254636F100E9D1D2 /* PomoFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomoFile.swift; sourceTree = "<group>"; };
+		3D2B1CEC254636F100E9D1D2 /* PomoStoreSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomoStoreSystem.swift; sourceTree = "<group>"; };
 		3D5A72A6254783AC0066B981 /* HistoryMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryMenu.swift; sourceTree = "<group>"; };
 		3D5A72AE254783DB0066B981 /* SettingMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingMenu.swift; sourceTree = "<group>"; };
 		3D785CF6253CEE0D00AEB84F /* ModelViewBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelViewBridge.swift; sourceTree = "<group>"; };
 		3D785D03253CEEF900AEB84F /* UIInternal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIInternal.swift; sourceTree = "<group>"; };
+		3D807944259C7CF300055A97 /* Pomopomo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pomopomo.entitlements; sourceTree = "<group>"; };
+		3D953F6D259523B80063426B /* PomoNotificationSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomoNotificationSystem.swift; sourceTree = "<group>"; };
 		3D9F0B2B253EB46100F1C9B8 /* PomoMenu_progressCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomoMenu_progressCircle.swift; sourceTree = "<group>"; };
 		3D9F0B36253EC70800F1C9B8 /* ButtonMenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonMenuButton.swift; sourceTree = "<group>"; };
 		3D9F0B3E253EC7B600F1C9B8 /* PomoMenu_Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomoMenu_Button.swift; sourceTree = "<group>"; };
@@ -121,6 +124,15 @@
 			path = PomoPomoViewModel;
 			sourceTree = "<group>";
 		};
+		3D953F692595233F0063426B /* NotificationSystem */ = {
+			isa = PBXGroup;
+			children = (
+				3DAF9434253BE2ED00285199 /* PomoNotification.swift */,
+				3D953F6D259523B80063426B /* PomoNotificationSystem.swift */,
+			);
+			path = NotificationSystem;
+			sourceTree = "<group>";
+		};
 		3D9F0B30253EC5AB00F1C9B8 /* BottomMenu */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,11 +185,11 @@
 		3DFADE38253BD2080007A45A /* Pomopomo */ = {
 			isa = PBXGroup;
 			children = (
+				3D807944259C7CF300055A97 /* Pomopomo.entitlements */,
+				3DFADE39253BD2080007A45A /* PomopomoApp.swift */,
 				3DFD1004253C2BBD0035C98D /* PomopomoView */,
 				3D785CF5253CEDEC00AEB84F /* PomoPomoViewModel */,
 				3DFADE67253BD21E0007A45A /* PomopomoModel */,
-				3DFADE3B253BD2080007A45A /* ContentView.swift */,
-				3DFADE39253BD2080007A45A /* PomopomoApp.swift */,
 				3DFADE3D253BD20A0007A45A /* Assets.xcassets */,
 				3DFADE42253BD20A0007A45A /* Info.plist */,
 				3DFADE3F253BD20A0007A45A /* Preview Content */,
@@ -214,9 +226,9 @@
 		3DFADE67253BD21E0007A45A /* PomopomoModel */ = {
 			isa = PBXGroup;
 			children = (
+				3D953F692595233F0063426B /* NotificationSystem */,
 				3DFADE68253BD23D0007A45A /* PomoPeriod.swift */,
-				3DAF9434253BE2ED00285199 /* PomoNotification.swift */,
-				3D2B1CEC254636F100E9D1D2 /* PomoFile.swift */,
+				3D2B1CEC254636F100E9D1D2 /* PomoStoreSystem.swift */,
 			);
 			path = PomopomoModel;
 			sourceTree = "<group>";
@@ -224,6 +236,7 @@
 		3DFD1004253C2BBD0035C98D /* PomopomoView */ = {
 			isa = PBXGroup;
 			children = (
+				3DFADE3B253BD2080007A45A /* ContentView.swift */,
 				3D9F0B34253EC5E800F1C9B8 /* UpperMenu */,
 				3D9F0B30253EC5AB00F1C9B8 /* BottomMenu */,
 			);
@@ -366,8 +379,9 @@
 				3DFADE69253BD23D0007A45A /* PomoPeriod.swift in Sources */,
 				3D9F0B37253EC70800F1C9B8 /* ButtonMenuButton.swift in Sources */,
 				3D785CF7253CEE0D00AEB84F /* ModelViewBridge.swift in Sources */,
-				3D2B1CED254636F100E9D1D2 /* PomoFile.swift in Sources */,
+				3D2B1CED254636F100E9D1D2 /* PomoStoreSystem.swift in Sources */,
 				3DFD1006253C2BFB0035C98D /* BottomMenu.swift in Sources */,
+				3D953F6E259523B80063426B /* PomoNotificationSystem.swift in Sources */,
 				3DFADE3A253BD2080007A45A /* PomopomoApp.swift in Sources */,
 				3D785D04253CEEF900AEB84F /* UIInternal.swift in Sources */,
 				3D9F0B2C253EB46100F1C9B8 /* PomoMenu_progressCircle.swift in Sources */,
@@ -529,6 +543,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Pomopomo/Pomopomo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Pomopomo/Preview Content\"";
 				DEVELOPMENT_TEAM = H323Z3M8AD;
@@ -539,8 +554,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = VinhPham.Pomopomo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -551,6 +568,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Pomopomo/Pomopomo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Pomopomo/Preview Content\"";
 				DEVELOPMENT_TEAM = H323Z3M8AD;
@@ -561,8 +579,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = VinhPham.Pomopomo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

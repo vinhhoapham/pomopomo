@@ -20,13 +20,13 @@ enum menu {
 
 class PomoUI: ObservableObject {
     
-    @Published var chosenMenu = menu.pomoMenu
+    @Published var pickedMenu = menu.pomoMenu
     
     func switchMenu(to menu: menu) {
         switch menu{
-            case .history: chosenMenu = .history
-            case .pomoMenu : chosenMenu = .pomoMenu
-            case .setting : chosenMenu = .setting
+            case .history: pickedMenu = .history
+            case .pomoMenu : pickedMenu = .pomoMenu
+            case .setting : pickedMenu = .setting
         }
     }
     

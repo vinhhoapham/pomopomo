@@ -6,9 +6,9 @@
 //
 
 import Foundation
+import SwiftUI
 
-
-struct PomoPeriod : Codable {
+struct PomoPeriod : Codable, Hashable {
     
     //MARK: Information variables
     
@@ -18,6 +18,10 @@ struct PomoPeriod : Codable {
     private(set) var name : String
     private(set) var originalDuration : Float
     private(set) var status : PomoStatus = .inactive
+    var progress : Float {
+        get { return remainingTime/originalDuration }
+        set {} 
+    }
     let id : UUID
     
     var json: Data? { try? JSONEncoder().encode(self) }
@@ -32,6 +36,7 @@ struct PomoPeriod : Codable {
         self.name = name
         self.id = UUID()
         self.status = .active
+        notificationSystem.push(notification: pomoNotification(period: self))
     }
     
     init?(json: Data?) {
@@ -41,12 +46,13 @@ struct PomoPeriod : Codable {
             return nil
         }
     }
-    // MARK: Auxiliary functions
+    // MARK: Auxiliary functions that affects the status of the period
     
     mutating func progress(by time: Float) {
         remainingTime = remainingTime - time
         
-        if remainingTime == 0 {
+        if remainingTime <= 0 {
+            progress = 0
             self.finished()
         }
         
@@ -58,13 +64,17 @@ struct PomoPeriod : Codable {
     }
     
     mutating func resumed() {
-        let estimatedInterval = DateInterval(start: startTime, duration: TimeInterval(remainingTime))
+        let estimatedInterval = DateInterval(start: Date(), duration: TimeInterval(remainingTime))
+        periodInterval = estimatedInterval 
+    }
+    
+    mutating func resumedFromAppRestarting() {
+        let estimatedInterval = DateInterval(start: Date(), duration: TimeInterval(remainingTime))
         
         if estimatedInterval.end != periodInterval.end {
-            periodInterval = estimatedInterval
-            notificationSystem.update(period: self)
+            remainingTime = Float(DateInterval(start: Date(), end: periodInterval.end
+            ).duration)
         }
-        
     }
     
     mutating func paused() {
